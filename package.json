@@ -6,7 +6,7 @@
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "camelify:toggle"
+    "atom-workspace": "camelify:convert"
   },
   "repository": "https://github.com/voidgraphics/camelify",
   "license": "MIT",
