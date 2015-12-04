@@ -18,3 +18,9 @@ module.exports = Camelify =
 
   convert: ->
     if editor = atom.workspace.getActiveTextEditor()
+      words = editor.getSelectedText().split(/[ ,.]+/).filter( ( n ) -> n != "" )
+      firstWord =  words.reverse().pop().toLowerCase()
+      camelified = firstWord
+      for word in words.reverse()
+          camelified += @capitalize word
+      editor.insertText camelified
