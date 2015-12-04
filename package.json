@@ -1,7 +1,7 @@
 {
   "name": "camelify",
   "main": "./lib/camelify",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "Atom package to convert a string to camelCase.",
   "author": "Void Graphics (Adrien Leloup)",
   "keywords": [
