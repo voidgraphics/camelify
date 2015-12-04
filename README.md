@@ -1,5 +1,15 @@
-# camelify package
+# Camelify for Atom
 
-A short description of your package.
+This tool will convert any string to camelCase.  
+It discards the most common special characters as well.  
+The keyboard shortcut is `ctrl + alt + c`
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+### Examples:
+
+```
+Hello,  this,, is..... `^¨£$%§#camelify
+```
+will turn into
+```
+helloThisIsCamelify
+```
