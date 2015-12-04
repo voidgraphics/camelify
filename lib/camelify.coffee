@@ -17,3 +17,4 @@ module.exports = Camelify =
     sWord[0].toUpperCase() + sWord.slice( 1 )
 
   convert: ->
+    if editor = atom.workspace.getActiveTextEditor()
