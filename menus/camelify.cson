@@ -2,8 +2,8 @@
 'context-menu':
   'atom-text-editor': [
     {
-      'label': 'Toggle camelify'
-      'command': 'camelify:toggle'
+      'label': 'Camelify selection'
+      'command': 'camelify:convert'
     }
   ]
 'menu': [
@@ -13,8 +13,8 @@
       'label': 'camelify'
       'submenu': [
         {
-          'label': 'Toggle'
-          'command': 'camelify:toggle'
+          'label': 'Convert'
+          'command': 'camelify:convert'
         }
       ]
     ]
